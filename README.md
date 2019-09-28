@@ -1,13 +1,13 @@
 About r-polycor
 ===============
 
-Home: https://r-forge.r-project.org/projects/polycor/, http://CRAN.R-project.org/package=polycor
+Home: https://r-forge.r-project.org/projects/polycor/, https://CRAN.R-project.org/package=polycor
 
-Package license: GPL (>= 2)
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: Computes polychoric and polyserial correlations by quick "two-step" methods or ML,  optionally with standard errors; tetrachoric and biserial correlations are special cases.
+Summary: Computes polychoric and polyserial correlations by quick "two-step" methods or ML, optionally with standard errors; tetrachoric and biserial correlations are special cases.
 
 
 
