@@ -1,4 +1,4 @@
-{% set version = '0.7-10' %}
+{% set version = "0.8-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/polycor_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/polycor/polycor_{{ version }}.tar.gz
-  sha256: caea3beca2c889e12e5b976c20c19cf5a76d42e6329e9ab646112eeae8fcfc73
+  sha256: 0f82bba91070366d516a435bb84eac05f408d2916fdb0e885637a8e29b1dccb6
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -40,12 +40,10 @@ test:
 about:
   home: https://r-forge.r-project.org/projects/polycor/, https://CRAN.R-project.org/package=polycor
   license: GPL-2
-  summary: Computes polychoric and polyserial correlations by quick "two-step" methods or ML,
-    optionally with standard errors; tetrachoric and biserial correlations are special
-    cases.
+  summary: Computes polychoric and polyserial correlations by quick "two-step" methods or ML, optionally with standard errors; tetrachoric and biserial correlations are special cases.
   license_family: GPL2
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
