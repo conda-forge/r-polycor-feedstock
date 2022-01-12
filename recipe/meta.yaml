@@ -1,4 +1,4 @@
-{% set version = "0.8-0" %}
+{% set version = "0.8-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/polycor_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/polycor/polycor_{{ version }}.tar.gz
-  sha256: 0f82bba91070366d516a435bb84eac05f408d2916fdb0e885637a8e29b1dccb6
+  sha256: f05f53e0b5c992de0e5b4c6b2e998148cf83310358821e1bba180d81face0509
 
 build:
   merge_build_host: true  # [win]
