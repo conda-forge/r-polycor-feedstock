@@ -1,11 +1,11 @@
-About r-polycor
-===============
+About r-polycor-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-polycor-feedstock/blob/main/LICENSE.txt)
 
 Home: https://r-forge.r-project.org/projects/polycor/, https://CRAN.R-project.org/package=polycor
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-polycor-feedstock/blob/main/LICENSE.txt)
 
 Summary: Computes polychoric and polyserial correlations by quick "two-step" methods or ML, optionally with standard errors; tetrachoric and biserial correlations are special cases.
 
