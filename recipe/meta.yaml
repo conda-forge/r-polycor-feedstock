@@ -1,4 +1,4 @@
-{% set version = "0.8-1" %}
+{% set version = "0.8-2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/polycor_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/polycor/polycor_{{ version }}.tar.gz
-  sha256: f05f53e0b5c992de0e5b4c6b2e998148cf83310358821e1bba180d81face0509
+  sha256: 618e9548f5a63b8487a5aa62d5b9bab8c7e845c693a04986608dcf03f6951f5a
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
